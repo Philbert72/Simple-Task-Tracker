@@ -2,7 +2,7 @@
 
 Aplikasi task tracker full-stack: REST API dengan FastAPI + PostgreSQL dan frontend Vue 3 (Composition API). Buat tugas, pindahkan antar status `Todo` / `In Progress` / `Done`, dan hapus — semua tanpa reload halaman.
 
-<video src="assets/demo.mp4" controls width="600"></video>
+![Demo](assets/demo.gif)
 
 ## Stack
 
