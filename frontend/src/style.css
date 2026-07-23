@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+
+.task-move,
+.task-enter-active,
+.task-leave-active {
+  transition: all 0.25s ease;
+}
+
+.task-enter-from,
+.task-leave-to {
+  opacity: 0;
+  transform: translateY(-6px) scale(0.98);
+}
+
+.task-leave-active {
+  position: absolute;
+  width: 100%;
+}
